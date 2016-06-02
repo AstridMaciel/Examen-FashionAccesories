@@ -1,0 +1,97 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(charset="utf+e228")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet")
+    link(href="css/font-awesome.min.css" rel="stylesheet")
+    link(href="css/main1.css" rel="stylesheet")
+    link(href="css/header.css" rel="stylesheet")
+    link(href="css/footer.css" rel="stylesheet")
+    link(href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css')
+
+    script(src="js/jquery.js")
+    script(src="js/bootstrap.min.js")
+    script(src="js/main.js")
+
+  body
+    .color-gris
+      .header1.container
+        .row
+          .col-md-3
+            p.first-list Default Welcome Msg
+          .col-md-9
+            .ul.pull-right.list-unstyled.list-inline.first-list
+              li
+                span.glyphicon.glyphicon-film
+                  | Lenguajes
+                span.glyphicon.glyphicon-menu-down
+              li
+                span.glyphicon.glyphicon-eur
+                  | Currency
+                span.glyphicon.glyphicon-menu-down
+              li
+                span.glyphicon.glyphicon-user
+                  | MyAccount
+                span.glyphicon.glyphicon-menu-down
+    .header2.container
+      .row
+        .col-md-3
+          .row
+            .col-md-2
+              span.icon.glyphicon.glyphicon-time
+            .col-md-10
+              h2 Opening Time
+              p 9:00 AM - 10:00 PM
+        .col-md-6.text-center
+          img(src="../assets/images/logo.png")
+        .col-md-3
+        .input-group
+          input.form-control(type='text', placeholder='Search...')
+          span.input-group-btn
+            button.btn.btn-default(type='button')
+              span.glyphicon.glyphicon-search
+    .color-gris
+      .header3.container
+        .row
+          .col-md-6
+            ul.pills.list-inline
+              li.second-list
+                a(href='#') HOME
+              li.second-list
+                a(href='#') CONTACT US
+          .col-md-6
+            .btn-group.pull-right
+              button.color-black.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                p
+                  span.glyphicon.glyphicon-shopping-cart MyCart
+                | 2item(s)-$244.00
+              ul.dropdown-menu
+                li
+                  a(href='#')
+                    img(src="../assets/images/cart-1.jpg")
+                    | Aliquam Consequat
+                    | 1x$500
+                li
+                  a(href='#')
+                    img(src="../assets/images/cart-2.jpg")
+                    | Quisque In Arcuc
+                    | 1x200$
+                .row
+                  .col-md-6
+                    li
+                      a Sub-Total
+                    li
+                      a Eco Tax
+                    li
+                      a VAT
+                  .col-md-6
+                    li
+                      a $700
+                    li
+                      a $7.00
+                    li
+                      a $40.00

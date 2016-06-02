@@ -1,0 +1,41 @@
+$color_gris:#e5deda;
+$color_letra_gris:#655f5a;
+$fuente_primaria:Raleway;
+$fondo_guinda:#dd1d43;
+body{
+  font-family: $fuente_primaria;
+}
+.color-gris{
+  background-color: $color_gris;
+}
+.header1{
+  padding: 1%;
+}
+.first-list{
+  color:$color_letra_gris;
+}
+.header2{
+  padding: 4%;
+}
+.icon{
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+.color-black{
+  background-color: #3c3936;
+  color: white;
+}
+.pills{
+  margin:0px;
+  padding: 4%;
+}
+.pills a{
+text-decoration: none;
+color: black;
+margin: 0px;
+}
+.second-list:hover{
+background-color: $fondo_guinda;
+padding: 4%;
+}

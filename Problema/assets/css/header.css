@@ -1,0 +1,46 @@
+body {
+  font-family: Raleway;
+}
+
+.color-gris {
+  background-color: #e5deda;
+}
+
+.header1 {
+  padding: 1%;
+}
+
+.first-list {
+  color: #655f5a;
+}
+
+.header2 {
+  padding: 4%;
+}
+
+.icon {
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+
+.color-black {
+  background-color: #3c3936;
+  color: white;
+}
+
+.pills {
+  margin: 0px;
+  padding: 4%;
+}
+
+.pills a {
+  text-decoration: none;
+  color: black;
+  margin: 0px;
+}
+
+.second-list:hover {
+  background-color: #dd1d43;
+  padding: 4%;
+}
