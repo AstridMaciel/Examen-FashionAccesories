@@ -1,0 +1,92 @@
+$color_gris:#e5deda;
+$color_letra_gris:#655f5a;
+$color_gris_icon:#bbbbbb;
+$fuente_primaria:Raleway;
+$fondo_guinda:#dd1d43;
+$fondo_negro:#212121;
+$fondo_footer:#6C8271;
+body{font-family: $fuente_primaria;}
+.color-gris{background-color: $color_gris;}
+.header1{padding: 1%;}
+.first-list{color:$color_letra_gris;}
+.header2{padding: 4%;}
+.icon{font-size: 40px;position: relative;top: 40px;}
+.color-black{background-color: #3c3936;color: white;}
+.pills{margin:0px;padding: 4%;}
+.pills a{text-decoration: none;color: black;margin: 0px;}
+.second-list:hover{background-color: $fondo_guinda;padding: 4%;}
+.box{margin-bottom: 4%;border: 2px solid white;padding:2%;}
+.box1{margin-bottom: 15%;}
+.accesories{padding:2%;}
+.pagination>li>a:focus{color: #171414;}
+.pagination>li>a, .pagination>li>span{
+  border:none;
+  color:$color_letra_gris;
+}
+.precio{
+  color:$fondo_guinda
+}
+.trought{
+  text-decoration:line-through;
+  color:$color_gris;
+}
+.ofert{
+  background-color:$fondo_guinda;
+  border:none;
+  color: #F9F4F3;
+  padding:3%;
+  position:absolute;
+}
+.sale{
+  background-color:$fondo_negro;
+}
+.banner{
+  background-image: url('../images/client-bg.jpg');
+  padding:5%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.bottom{
+  margin-bottom: 8%;
+}
+.box-span{
+  border:1px solid $color_gris_icon;
+  color:$color_gris_icon;
+}
+#icon{
+  color:$color_gris_icon;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.contact{
+  background-color:white;
+  border:none;
+  width: 40px;
+  font-size: 20px;
+  height: 40px;
+}
+.footer{
+  background-color:$color_gris;
+}
+.inline{
+  display: inline;
+}
+.mb-7{margin-bottom: 7%;}
+.mt-5{margin-top:15%;}
+.mt-10{margin-top:10%;}
+.about{
+  font-size: 25px;
+  border:1px solid white;
+  background-color: white;
+  border-radius:100%;
+}
+.grey{
+  color:$color_letra_gris;
+}
+.footer-small{
+  padding:1%;
+  color:white;
+  background-color:$fondo_negro;
+}

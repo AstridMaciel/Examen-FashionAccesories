@@ -97,14 +97,63 @@ body {
 }
 
 .bottom {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .box-span {
-  border: 1px solid black;
+  border: 1px solid #bbbbbb;
+  color: #bbbbbb;
 }
 
 #icon {
-  font-size: 30px;
-  margin-left: 10px;
+  color: #bbbbbb;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: white;
+  border: none;
+  width: 40px;
+  font-size: 20px;
+  height: 40px;
+}
+
+.footer {
+  background-color: #e5deda;
+}
+
+.inline {
+  display: inline;
+}
+
+.mb-7 {
+  margin-bottom: 7%;
+}
+
+.mt-5 {
+  margin-top: 15%;
+}
+
+.mt-10 {
+  margin-top: 10%;
+}
+
+.about {
+  font-size: 25px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.grey {
+  color: #655f5a;
+}
+
+.footer-small {
+  padding: 1%;
+  color: white;
+  background-color: #212121;
 }
