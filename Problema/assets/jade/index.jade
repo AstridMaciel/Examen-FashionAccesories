@@ -30,7 +30,7 @@ html
                   | Lenguajes
                 span.glyphicon.glyphicon-menu-down
               li
-                span.glyphicon.glyphicon-eur
+                span.glyphicon.glyphicon-usd
                   | Currency
                 span.glyphicon.glyphicon-menu-down
               li
@@ -358,3 +358,67 @@ html
                     button
                       span.glyphicon.glyphicon-shopping-cart
                       | Add to Cart
+    section.list-products
+      nav.text-center
+        ul.pagination
+          li
+            a.options(href='#sale', aria-label='Previous')
+              span.glyphicon.glyphicon-menu-left
+          li
+            a.options#best(href='#best') BLOG
+          li
+            a.options(href='#latest', aria-label='Next')
+              span.glyphicon.glyphicon-menu-right
+      .blog
+        .row
+          .container
+            .col-md-3.bottom
+              img.img-responsive(src="../assets/images/blog2.jpg")
+              h5 THE SAMPLE HEADING TITLE
+              P 27/11/2015
+              P Lorem ipsum dolor sit amet, consectur adipiscing ing elit, sed do...
+              p.precio Read more...
+            .col-md-3.bottom
+              img.img-responsive(src="../assets/images/blog1.jpg")
+              h5 THE SAMPLE HEADING TITLE
+              P 27/11/2015
+              P Lorem ipsum dolor sit amet, consectur adipiscing ing elit, sed do...
+              p.precio Read more...
+            .col-md-3.bottom
+              img.img-responsive(src="../assets/images/blog2.jpg")
+              h5 THE SAMPLE HEADING TITLE
+              P 27/11/2015
+              P Lorem ipsum dolor sit amet, consectur adipiscing ing elit, sed do...
+              p.precio Read more...
+            .col-md-3.bottom
+              img.img-responsive(src="../assets/images/blog3.jpg")
+              h5 THE SAMPLE HEADING TITLE
+              P 27/11/2015
+              P Lorem ipsum dolor sit amet, consectur adipiscing ing elit, sed do...
+              p.precio Read more...
+        .row
+          .container
+            .col-md-4
+              .box-span.text-center
+                .row
+                  .col-md-2
+                    span#icon.glyphicon.glyphicon-earphone
+                  .col-md-10
+                    h4 ORDER ONLINE NOW
+                    p Call Us:(0123) 456 789
+            .col-md-4
+              .box-span.text-center
+                .row
+                  .col-md-2
+                    span#icon.glyphicon.glyphicon-plane
+                  .col-md-10
+                    h4 FREE WORLDWIDE SHIPPING
+                    p On Order Over $100
+            .col-md-4
+              .box-span.text-center
+                .row
+                  .col-md-2
+                    span#icon.glyphicon.glyphicon-credit-card
+                  .col-md-10
+                    h4 30 DAYS MONEY BACK 100%
+                    p Satisfaction Guarantee
