@@ -44,3 +44,58 @@ body {
   background-color: #dd1d43;
   padding: 4%;
 }
+
+.box {
+  margin-bottom: 4%;
+  border: 2px solid white;
+  padding: 2%;
+}
+
+.box1 {
+  margin-bottom: 15%;
+}
+
+.accesories {
+  padding: 2%;
+}
+
+.pagination > li > a:focus {
+  color: #171414;
+}
+
+.pagination > li > a, .pagination > li > span {
+  border: none;
+  color: #655f5a;
+}
+
+.precio {
+  color: #dd1d43;
+}
+
+.trought {
+  text-decoration: line-through;
+  color: #e5deda;
+}
+
+.ofert {
+  background-color: #dd1d43;
+  border: none;
+  color: #F9F4F3;
+  padding: 3%;
+  position: absolute;
+}
+
+.sale {
+  background-color: #212121;
+}
+
+.banner {
+  background-image: url("../images/client-bg.jpg");
+  padding: 5%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.bottom {
+  margin-bottom: 10%;
+}

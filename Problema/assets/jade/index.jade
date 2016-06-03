@@ -95,3 +95,266 @@ html
                       a $7.00
                     li
                       a $40.00
+    section
+      .carousel
+        #carousel-example-generic.carousel.slide(data-ride='carousel')
+          ol.carousel-indicators
+            li.active(data-target='#carousel-example-generic', data-slide-to='0')
+            li(data-target='#carousel-example-generic', data-slide-to='1')
+            li(data-target='#carousel-example-generic', data-slide-to='2')
+          .carousel-inner(role='listbox')
+            .item.active
+              img(src="../assets/images/slider1.jpg")
+              .carousel-caption
+                h1.box AUTOMN/WINTER LOOKBOOK
+                h1.box1 - 2016 COLECTION -
+            .item
+              img(src="../assets/images/slider2.jpg")
+              .carousel-caption
+                h1.box AUTOMN/WINTER LOOKBOOK
+                h1.box1 - 2016 COLECTION -
+          a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+            span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+            span.sr-only Previous
+          a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+            span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+            span.sr-only Next
+    section
+      .row.accesories
+        .container
+          .col-md-5
+            img.img-responsive(src="../assets/images/banner1.jpg")
+          .col-md-7
+            img.img-responsive(src="../assets/images/banner2.jpg")
+    section.list-products
+      nav.text-center
+        ul.pagination
+          li
+            a.options(href='#sale', aria-label='Previous')
+              span.glyphicon.glyphicon-menu-left
+          li
+            a.options#latest(href='#latest') LATEST
+          li
+            a.options#best(href='#best') BESTSELLER
+          li
+            a.options#sale(href='#sale') SALE
+          li
+            a.options(href='#latest', aria-label='Next')
+              span.glyphicon.glyphicon-menu-right
+      .list-img-products.container
+        .row
+          .col-md-3
+            ul
+              li.img-thumbnail
+                button.ofert NEW
+                img.img-responsive(src="../assets/images/a1.jpg")
+                .info.text-center
+                  p Deliver Wide
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star-empty
+                  span.glyphicon.glyphicon-star-empty
+                  p.precio$218.00
+          .col-md-3
+            ul
+              li.img-thumbnail
+                button.ofert.sale SALE 
+                img.img-responsive(src="../assets/images/b1.jpg")
+                .info.text-center
+                  p Deliver Wide
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star-empty
+                  span.glyphicon.glyphicon-star-empty
+                  ul.precio.list-unstyled.list-inline
+                    li.trought
+                      $242.00
+                    li
+                      $218.00
+          .col-md-3
+            ul
+              li.img-thumbnail
+                button.ofert NEW
+                img.img-responsive(src="../assets/images/c1.jpg")
+                .info.text-center
+                  p Deliver Wide
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star-empty
+                  span.glyphicon.glyphicon-star-empty
+                  ul.precio.list-unstyled.list-inline
+                    li.trought
+                      $242.00
+                    li
+                      $218.00
+          .col-md-3
+            ul
+              li.img-thumbnail
+                button.ofert NEW
+                img.img-responsive(src="../assets/images/d1.jpg")
+                .info.text-center
+                  p Deliver Wide
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star-empty
+                  span.glyphicon.glyphicon-star-empty
+                  p.precio $218.00
+    section.banner
+      .container
+        .row
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client1.jpg")
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client2.jpg")
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client3.jpg")
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client4.jpg")
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client5.jpg")
+          .col-sm-2
+            img.img-responsive(src="../assets/images/client6.jpg")
+    section.list-products
+      nav.text-center
+        ul.pagination
+          li
+            a.options(href='#sale', aria-label='Previous')
+              span.glyphicon.glyphicon-menu-left
+          li
+            a.options#latest(href='#latest') CLOTHING
+          li
+            a.options#best(href='#best') EQUIPMENTS
+          li
+            a.options#sale(href='#sale') JEWELLERY
+          li
+            a.options(href='#latest', aria-label='Next')
+              span.glyphicon.glyphicon-menu-right
+      .container
+        .row
+          .col-md-4
+            ul.list-unstyled
+              li.bottom
+                .row
+                  .col-md-6
+                    button.ofert NEW
+                    img.img-thumbnail.img-responsive(src="../assets/images/a2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li.trought
+                          $242.00
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
+              li.bottom
+                .row
+                  .col-md-6
+                    button.ofert NEW
+                    img.img-thumbnail.img-responsive(src="../assets/images/c2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
+          .col-md-4
+            ul.list-unstyled
+              li.bottom
+                .row
+                  .col-md-6
+                    button.ofert NEW
+                    img.img-thumbnail.img-responsive(src="../assets/images/d2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
+              li.bottom
+                .row
+                  .col-md-6
+                    button.sale.ofert SALE
+                    img.img-thumbnail.img-responsive(src="../assets/images/c2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li.trought
+                          $242.00
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
+          .col-md-4
+            ul.list-unstyled
+              li.bottom
+                .row
+                  .col-md-6
+                    img.img-thumbnail.img-responsive(src="../assets/images/g2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
+              li.bottom
+                .row
+                  .col-md-6
+                    button.ofert NEW
+                    img.img-thumbnail.img-responsive(src="../assets/images/e2.jpg")
+                  .col-md-6
+                    .details
+                      p Deliver Wide
+                      ul.precio.list-unstyled.list-inline
+                        li
+                          $218.00
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    button
+                      span.glyphicon.glyphicon-shopping-cart
+                      | Add to Cart
